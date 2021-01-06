@@ -16,6 +16,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+
 }
 
 .image-home {
@@ -69,12 +70,15 @@ body {
   box-shadow: none !important;
 }
 
+
+
+/* ------------------------------------------------------------------------------------------END OF NAV-------------------------------------------------------------------------------------*/
+
 .box-1 {
   padding-left: 70px;
   position: relative;
   box-sizing: border-box;
   padding-right: 100px;
-  justify-content: center;
   padding-top: 50px;
   top: -30px;
   display: flex;
@@ -94,7 +98,10 @@ h1 {
 
 .row1 {
   position: relative;
-  height: 100%;
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+
 }
 
 .button1 {
@@ -105,48 +112,32 @@ h1 {
   color: white;
   margin-top: 30px;
 }
-
-@media (max-width:600px) {
-  .brand {
+/*----------------------------------------------------------Media Query Start ----------------------------------------*/
+@media only screen and (max-width: 600px) {
+  .box-1
+  {
+    order:2;
+    padding: 40px;
+  }
+  .hod
+  {
+    font-size: 2.5rem;
+  }
+  .brand
+  {
     margin-left: 10px;
   }
-  .decoration-box {
-
-    padding:50px !important;
-  }
-  .box-a
+  .home
   {
-    margin-bottom: 35px;
+    order:1;
   }
-  .acc
+  .row1
   {
-    padding-left:0 !important;
-    padding-right:0 !important;
+    margin:0;
   }
-  .write
-  {
-    position: absolute;
-    top:50px !important;
-    left: 30px !important;
-  }
-  .write h2
-  {
-    font-size: 3rem !important;
-  }
-  .write p
-  {
-    text-align: justify;
-  }
-
-.last
-{
-  padding:0 !important;
-
 }
 
-
-}
-
+/*----------------------------------------------------------Media Query End----------------------------------------*/
 .box-a {
   display: flex;
   justify-content: center;
@@ -273,7 +264,7 @@ h5
 .connect
 {
   width:100%;
-  height:80vh;
+  height:60vh;
   position: relative;
 
 
@@ -283,7 +274,7 @@ h5
 
   position: absolute;
   left: 80px;
-  top:150px;
+  top:50px;
   padding:10px 0 10px 0;
 
 }
@@ -291,7 +282,7 @@ h5
 {
   color: white;
   font-family: 'Staatliches', cursive;
-  font-size: 4rem;
+  font-size: 3.5rem;
   margin-bottom:20px;
 }
 .write p
