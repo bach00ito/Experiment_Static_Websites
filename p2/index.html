@@ -88,7 +88,7 @@
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col-lg-6 col-md-12 col-sm-12">
+      <div class="col-lg-6 col-md-12 col-sm-12 plot1">
         <img class="img-fluid" src="shared.png" alt="">
       </div>
       <div class="col-lg-6 col-md-12 col-sm-12 box-1">
@@ -253,10 +253,6 @@
 
 
 
-
-
-
-
   <div class="connect" id="contacts">
     <div class="write">
       <h2>Send Gift to Your Loved ones</h2>
@@ -309,5 +305,16 @@
 
 
 </body>
+<script type="text/javascript">
+  const sr=ScrollReveal({
+    origin:'top',
+    distance:'30px',
+    duration:1500,
+    
+  });
+  sr.reveal('.box-1, .home, .box-1, .plot1, .box-a, .head, .acc-head, .box-b, .write, .des, .icons' , {
+    interval:200
+  })
+</script>
 
 </html>
