@@ -164,11 +164,22 @@ body {
 {
   position: relative;
   left:10px !important;
-  top:-2px !important;
+  
 }
 .bad
 {
-  width:320px !important;
+  width:300px !important;
+  font-size: 0.8rem !important;
+
+}
+.write h2
+{
+  width:300px !important;
+  font-size: 2rem !important;
+}
+.connect
+{
+  width:90vh;
 }
 }
 
