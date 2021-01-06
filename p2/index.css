@@ -123,6 +123,7 @@ h1 {
   {
     font-size: 2.5rem;
   }
+
   .brand
   {
     margin-left: 10px;
@@ -135,6 +136,40 @@ h1 {
   {
     margin:0;
   }
+  .decoration-box
+  {
+    padding-left:0 !important;
+    padding-right:0 !important;
+  }
+  .box-a
+  {
+    margin-bottom:25px !important;
+  }
+  .deer
+  {
+    font-size: 2rem;
+  }
+  .acc
+  {
+    padding-left:0 !important;
+    padding-right:0 !important;
+  }
+  html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
+.write
+{
+  position: relative;
+  left:10px !important;
+  top:-2px !important;
+}
+.bad
+{
+  width:320px !important;
+}
 }
 
 /*----------------------------------------------------------Media Query End----------------------------------------*/
